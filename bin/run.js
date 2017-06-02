@@ -6,10 +6,17 @@ const slackClient = require('../server/slackClient');
 var port = process.env.PORT || 8080;
 
 
-const slackToken = 'xoxb-153758522887-91C7Dcr9rF5qihnaTAblXi0g';
+//const slackToken = 'xoxb-153758522887-91C7Dcr9rF5qihnaTAblXi0g';
+
+// const slackToken = 'xoxb-169017155153-DqKNc8TqjMpdKfd7dUkmY74O';
+const slackToken = 'xoxb-190946398336-7eI48SSH4ICr0oonoc4dNUpV';
+
+
 const slackLoglevel = 'verbose';
 
 const bluemixToken = '';
+
+// Connect to BlueMix client
 
 const bluemixClient = require('../server/bluemixClient')(bluemixToken);
 

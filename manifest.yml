@@ -1,0 +1,5 @@
+---
+applications:
+- name:    watson-health-bot
+  host:    watson-health-bot
+  memory:  128M
